@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Cashy": {
+      "applicationId": "3ys0OweLJxEIsXoH4Ak3AFfgN10SdkI0UrYjp1du"
+    },
+    "_default": {
+      "link": "Cashy"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script src= "http://giuseppecapoluongo.com/bower_components/jquery/dist/jquery.min.js">
+	</script>
+	<script>
+		$(window).load(function() {
+			$.urlParam = function(name){
+		    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+		    if (results==null){
+		       return null;
+		    }
+		    else{
+		       return results[1] || 0;
+		    }
+			}
+
+			console.log($.urlParam("code"))
+
+			$.ajax({
+				url: 'https://connect.stripe.com/oauth/token',
+				type: 'POST',
+				data: {
+					client_secret: "sk_test_MJHXgUKGxKgq8TtGnNlicmUN",
+					code: $.urlParam("code"),
+					grant_type: "authorization_code"
+				},
+			})
+			.done(function(response) {
+				console.log(response);
+			})
+			.fail(function(error_description) {
+				console.log(error_description);
+			})
+		});
+	</script>
+</head>
+<body>
+</body>
+</html>
+
+
+<!-- curl https://connect.stripe.com/oauth/token \
+   -d client_secret=sk_test_MJHXgUKGxKgq8TtGnNlicmUN \
+   -d code=ac_8JdiPnSpu0oAY7QRUQRTTVwxZSuCMnhQ \
+   -d grant_type=authorization_code -->

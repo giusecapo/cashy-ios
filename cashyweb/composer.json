@@ -1,0 +1,6 @@
+{
+  "require" : {
+    "parse/php-sdk" : "1.2.*",
+    "stripe/stripe-php": "3.*"
+  }
+}

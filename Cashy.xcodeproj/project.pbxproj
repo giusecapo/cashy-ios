@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0A08731CDDDA0D003F3D93 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A08721CDDDA0D003F3D93 /* Banner.swift */; };
+		6E18D0541CC6D3DB00DF0C60 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E18D0531CC6D3DB00DF0C60 /* libPayPalMobile.a */; };
+		6E52AA461CBC242C00647871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AA451CBC242C00647871 /* AppDelegate.swift */; };
+		6E52AA4D1CBC242C00647871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E52AA4B1CBC242C00647871 /* Main.storyboard */; };
+		6E52AA521CBC242C00647871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E52AA501CBC242C00647871 /* LaunchScreen.storyboard */; };
+		6E52AA5D1CBC242C00647871 /* CashyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AA5C1CBC242C00647871 /* CashyTests.swift */; };
+		6E52AA681CBC242C00647871 /* CashyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AA671CBC242C00647871 /* CashyUITests.swift */; };
+		6E52AA7E1CBC266300647871 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA791CBC266200647871 /* FBSDKCoreKit.framework */; };
+		6E52AA7F1CBC266300647871 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA7A1CBC266200647871 /* FBSDKLoginKit.framework */; };
+		6E52AA801CBC266300647871 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA7B1CBC266200647871 /* FBSDKMessengerShareKit.framework */; };
+		6E52AA811CBC266300647871 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA7C1CBC266200647871 /* FBSDKShareKit.framework */; };
+		6E52AA891CBC267200647871 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA841CBC267200647871 /* ParseFacebookUtilsV4.framework */; };
+		6E52AA8B1CBC267200647871 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA861CBC267200647871 /* ParseUI.framework */; };
+		6E52AA8D1CBC26CF00647871 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA8C1CBC26CF00647871 /* AudioToolbox.framework */; };
+		6E52AA8F1CBC26DF00647871 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA8E1CBC26DF00647871 /* CFNetwork.framework */; };
+		6E52AA911CBC26E900647871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA901CBC26E900647871 /* CoreGraphics.framework */; };
+		6E52AA931CBC26F400647871 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA921CBC26F400647871 /* CoreLocation.framework */; };
+		6E52AA951CBC26FA00647871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA941CBC26FA00647871 /* QuartzCore.framework */; };
+		6E52AA971CBC270200647871 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA961CBC270100647871 /* Security.framework */; };
+		6E52AA991CBC270700647871 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA981CBC270700647871 /* StoreKit.framework */; };
+		6E52AA9B1CBC271100647871 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA9A1CBC271100647871 /* SystemConfiguration.framework */; };
+		6E52AA9D1CBC271D00647871 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA9C1CBC271D00647871 /* libz.tbd */; };
+		6E52AA9F1CBC272500647871 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AA9E1CBC272500647871 /* libsqlite3.tbd */; };
+		6E52AAA21CBCD89800647871 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52AAA11CBCD89800647871 /* Stripe.framework */; };
+		6E52AAA61CBCDFE700647871 /* Enter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAA31CBCDFE600647871 /* Enter.swift */; };
+		6E52AAA71CBCDFE700647871 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAA41CBCDFE700647871 /* SignUp.swift */; };
+		6E52AAA81CBCDFE700647871 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAA51CBCDFE700647871 /* LogIn.swift */; };
+		6E52AAAD1CBCE63700647871 /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAAC1CBCE63700647871 /* NewUser.swift */; };
+		6E52AAB11CBCFEE400647871 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E52AAB01CBCFEE400647871 /* SignUp.storyboard */; };
+		6E52AAE61CBD1D5300647871 /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAB61CBD1D5300647871 /* APAddress.m */; };
+		6E52AAE71CBD1D5300647871 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAB81CBD1D5300647871 /* APAddressBook.m */; };
+		6E52AAE81CBD1D5300647871 /* APAddressBookAccessRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AABA1CBD1D5300647871 /* APAddressBookAccessRoutine.m */; };
+		6E52AAE91CBD1D5300647871 /* APAddressBookBaseRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AABC1CBD1D5300647871 /* APAddressBookBaseRoutine.m */; };
+		6E52AAEA1CBD1D5300647871 /* APAddressBookContactsRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AABE1CBD1D5300647871 /* APAddressBookContactsRoutine.m */; };
+		6E52AAEB1CBD1D5300647871 /* APAddressBookExternalChangeRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAC11CBD1D5300647871 /* APAddressBookExternalChangeRoutine.m */; };
+		6E52AAEC1CBD1D5300647871 /* APAddressBookRefWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAC31CBD1D5300647871 /* APAddressBookRefWrapper.m */; };
+		6E52AAED1CBD1D5300647871 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAC51CBD1D5300647871 /* APContact.m */; };
+		6E52AAEE1CBD1D5300647871 /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAC71CBD1D5300647871 /* APContactBuilder.m */; };
+		6E52AAEF1CBD1D5300647871 /* APContactDataExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAC91CBD1D5300647871 /* APContactDataExtractor.m */; };
+		6E52AAF01CBD1D5300647871 /* APContactDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AACB1CBD1D5300647871 /* APContactDate.m */; };
+		6E52AAF11CBD1D5300647871 /* APContactListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AACD1CBD1D5300647871 /* APContactListBuilder.m */; };
+		6E52AAF21CBD1D5300647871 /* APEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAD01CBD1D5300647871 /* APEmail.m */; };
+		6E52AAF31CBD1D5300647871 /* APImageExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAD21CBD1D5300647871 /* APImageExtractor.m */; };
+		6E52AAF41CBD1D5300647871 /* APJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAD41CBD1D5300647871 /* APJob.m */; };
+		6E52AAF51CBD1D5300647871 /* APName.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAD61CBD1D5300647871 /* APName.m */; };
+		6E52AAF61CBD1D5300647871 /* APPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAD81CBD1D5300647871 /* APPhone.m */; };
+		6E52AAF71CBD1D5300647871 /* APRecordDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AADA1CBD1D5300647871 /* APRecordDate.m */; };
+		6E52AAF81CBD1D5300647871 /* APRelatedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AADC1CBD1D5300647871 /* APRelatedPerson.m */; };
+		6E52AAF91CBD1D5300647871 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AADE1CBD1D5300647871 /* APSocialProfile.m */; };
+		6E52AAFA1CBD1D5300647871 /* APSocialServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAE01CBD1D5300647871 /* APSocialServiceHelper.m */; };
+		6E52AAFB1CBD1D5300647871 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAE21CBD1D5300647871 /* APSource.m */; };
+		6E52AAFC1CBD1D5300647871 /* APThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAE41CBD1D5300647871 /* APThread.m */; };
+		6E52AAFE1CBD1E3600647871 /* ShowContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AAFD1CBD1E3600647871 /* ShowContacts.swift */; };
+		6E5415C51CF2EA8200279932 /* UseGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5415C41CF2EA8200279932 /* UseGift.swift */; };
+		6E5415C81CF45DF100279932 /* MakeAGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5415C71CF45DF100279932 /* MakeAGift.swift */; };
+		6E71EBFB1CE0FACF00E5D135 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E71EBFA1CE0FACF00E5D135 /* TransactionCell.swift */; };
+		6E92B9121D0231D800035BE1 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E92B9111D0231D800035BE1 /* LocalAuthentication.framework */; };
+		6E974B891CEAFD2200E65559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E974B881CEAFD2200E65559 /* Assets.xcassets */; };
+		6EA2E5841CDC897500A326A8 /* PhoneLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2E5831CDC897500A326A8 /* PhoneLogin.swift */; };
+		6EA4DB6C1CEAFFDD0037910B /* QRReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4DB6B1CEAFFDD0037910B /* QRReader.swift */; };
+		6ED542831CE77AD0007D78AD /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED542821CE77AD0007D78AD /* Settings.storyboard */; };
+		6ED542851CE77B71007D78AD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED542841CE77B71007D78AD /* Settings.swift */; };
+		6EDC16061CC61CDF001B3FA8 /* Pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDC16051CC61CDF001B3FA8 /* Pay.storyboard */; };
+		6EDC16081CC61D9D001B3FA8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC16071CC61D9D001B3FA8 /* MainTabBarController.swift */; };
+		6EDC160A1CC6228E001B3FA8 /* Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC16091CC6228E001B3FA8 /* Pay.swift */; };
+		6EDC160C1CC623AC001B3FA8 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC160B1CC623AC001B3FA8 /* Transactions.swift */; };
+		6EDC16161CC6CF52001B3FA8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC16151CC6CF52001B3FA8 /* CoreMedia.framework */; };
+		6EDC16181CC6CF57001B3FA8 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC16171CC6CF57001B3FA8 /* SafariServices.framework */; };
+		6EDC161A1CC6CF67001B3FA8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC16191CC6CF67001B3FA8 /* MobileCoreServices.framework */; };
+		6EDC161C1CC6CF8D001B3FA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC161B1CC6CF8D001B3FA8 /* MessageUI.framework */; };
+		6EDC161E1CC6CF9A001B3FA8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC161D1CC6CF9A001B3FA8 /* AVFoundation.framework */; };
+		6EDC16201CC6CFA3001B3FA8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDC161F1CC6CFA3001B3FA8 /* Accelerate.framework */; };
+		6EDE20321CD8B84700A9A2C2 /* PhoneLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE20311CD8B84700A9A2C2 /* PhoneLogin.storyboard */; };
+		6EF8986B1D06D8D800E6BC5D /* PaymentSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8986A1D06D8D800E6BC5D /* PaymentSettings.swift */; };
+		6EF8986D1D096ABE00E6BC5D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8986C1D096ABE00E6BC5D /* RootViewController.swift */; };
+		6EF9CDBB1CE1D2FB00CCFB4B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9CDBA1CE1D2FB00CCFB4B /* Parse.framework */; };
+		6EF9CDBD1CE1D31900CCFB4B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9CDBC1CE1D31900CCFB4B /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E52AA591CBC242C00647871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E52AA3A1CBC242B00647871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E52AA411CBC242B00647871;
+			remoteInfo = Cashy;
+		};
+		6E52AA641CBC242C00647871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E52AA3A1CBC242B00647871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E52AA411CBC242B00647871;
+			remoteInfo = Cashy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0A08721CDDDA0D003F3D93 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Banner.swift; path = frameworks/Banner.swift; sourceTree = "<group>"; };
+		6E18D0531CC6D3DB00DF0C60 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPayPalMobile.a; path = frameworks/PayPalMobile/libPayPalMobile.a; sourceTree = "<group>"; };
+		6E52AA421CBC242B00647871 /* Cashy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E52AA451CBC242C00647871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E52AA4C1CBC242C00647871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E52AA511CBC242C00647871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E52AA531CBC242C00647871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E52AA581CBC242C00647871 /* CashyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E52AA5C1CBC242C00647871 /* CashyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashyTests.swift; sourceTree = "<group>"; };
+		6E52AA5E1CBC242C00647871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E52AA631CBC242C00647871 /* CashyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E52AA671CBC242C00647871 /* CashyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashyUITests.swift; sourceTree = "<group>"; };
+		6E52AA691CBC242C00647871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E52AA751CBC251D00647871 /* Cashy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cashy-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E52AA791CBC266200647871 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Cashy/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6E52AA7A1CBC266200647871 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Cashy/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6E52AA7B1CBC266200647871 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = Cashy/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		6E52AA7C1CBC266200647871 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Cashy/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		6E52AA841CBC267200647871 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Cashy/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		6E52AA861CBC267200647871 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Cashy/ParseUI.framework; sourceTree = "<group>"; };
+		6E52AA8C1CBC26CF00647871 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6E52AA8E1CBC26DF00647871 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6E52AA901CBC26E900647871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E52AA921CBC26F400647871 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E52AA941CBC26FA00647871 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E52AA961CBC270100647871 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6E52AA981CBC270700647871 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6E52AA9A1CBC271100647871 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6E52AA9C1CBC271D00647871 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6E52AA9E1CBC272500647871 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6E52AAA11CBCD89800647871 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = frameworks/StripeiOS/Stripe.framework; sourceTree = "<group>"; };
+		6E52AAA31CBCDFE600647871 /* Enter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enter.swift; sourceTree = "<group>"; };
+		6E52AAA41CBCDFE700647871 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		6E52AAA51CBCDFE700647871 /* LogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		6E52AAAA1CBCE53600647871 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		6E52AAAC1CBCE63700647871 /* NewUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		6E52AAB01CBCFEE400647871 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		6E52AAB51CBD1D5300647871 /* APAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = frameworks/APAddressBook/APAddress.h; sourceTree = "<group>"; };
+		6E52AAB61CBD1D5300647871 /* APAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = frameworks/APAddressBook/APAddress.m; sourceTree = "<group>"; };
+		6E52AAB71CBD1D5300647871 /* APAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = frameworks/APAddressBook/APAddressBook.h; sourceTree = "<group>"; };
+		6E52AAB81CBD1D5300647871 /* APAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = frameworks/APAddressBook/APAddressBook.m; sourceTree = "<group>"; };
+		6E52AAB91CBD1D5300647871 /* APAddressBookAccessRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookAccessRoutine.h; path = frameworks/APAddressBook/APAddressBookAccessRoutine.h; sourceTree = "<group>"; };
+		6E52AABA1CBD1D5300647871 /* APAddressBookAccessRoutine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBookAccessRoutine.m; path = frameworks/APAddressBook/APAddressBookAccessRoutine.m; sourceTree = "<group>"; };
+		6E52AABB1CBD1D5300647871 /* APAddressBookBaseRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookBaseRoutine.h; path = frameworks/APAddressBook/APAddressBookBaseRoutine.h; sourceTree = "<group>"; };
+		6E52AABC1CBD1D5300647871 /* APAddressBookBaseRoutine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBookBaseRoutine.m; path = frameworks/APAddressBook/APAddressBookBaseRoutine.m; sourceTree = "<group>"; };
+		6E52AABD1CBD1D5300647871 /* APAddressBookContactsRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookContactsRoutine.h; path = frameworks/APAddressBook/APAddressBookContactsRoutine.h; sourceTree = "<group>"; };
+		6E52AABE1CBD1D5300647871 /* APAddressBookContactsRoutine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBookContactsRoutine.m; path = frameworks/APAddressBook/APAddressBookContactsRoutine.m; sourceTree = "<group>"; };
+		6E52AABF1CBD1D5300647871 /* APAddressBookExternalChangeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeDelegate.h; path = frameworks/APAddressBook/APAddressBookExternalChangeDelegate.h; sourceTree = "<group>"; };
+		6E52AAC01CBD1D5300647871 /* APAddressBookExternalChangeRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeRoutine.h; path = frameworks/APAddressBook/APAddressBookExternalChangeRoutine.h; sourceTree = "<group>"; };
+		6E52AAC11CBD1D5300647871 /* APAddressBookExternalChangeRoutine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBookExternalChangeRoutine.m; path = frameworks/APAddressBook/APAddressBookExternalChangeRoutine.m; sourceTree = "<group>"; };
+		6E52AAC21CBD1D5300647871 /* APAddressBookRefWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAddressBookRefWrapper.h; path = frameworks/APAddressBook/APAddressBookRefWrapper.h; sourceTree = "<group>"; };
+		6E52AAC31CBD1D5300647871 /* APAddressBookRefWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAddressBookRefWrapper.m; path = frameworks/APAddressBook/APAddressBookRefWrapper.m; sourceTree = "<group>"; };
+		6E52AAC41CBD1D5300647871 /* APContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = frameworks/APAddressBook/APContact.h; sourceTree = "<group>"; };
+		6E52AAC51CBD1D5300647871 /* APContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = frameworks/APAddressBook/APContact.m; sourceTree = "<group>"; };
+		6E52AAC61CBD1D5300647871 /* APContactBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContactBuilder.h; path = frameworks/APAddressBook/APContactBuilder.h; sourceTree = "<group>"; };
+		6E52AAC71CBD1D5300647871 /* APContactBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContactBuilder.m; path = frameworks/APAddressBook/APContactBuilder.m; sourceTree = "<group>"; };
+		6E52AAC81CBD1D5300647871 /* APContactDataExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContactDataExtractor.h; path = frameworks/APAddressBook/APContactDataExtractor.h; sourceTree = "<group>"; };
+		6E52AAC91CBD1D5300647871 /* APContactDataExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContactDataExtractor.m; path = frameworks/APAddressBook/APContactDataExtractor.m; sourceTree = "<group>"; };
+		6E52AACA1CBD1D5300647871 /* APContactDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContactDate.h; path = frameworks/APAddressBook/APContactDate.h; sourceTree = "<group>"; };
+		6E52AACB1CBD1D5300647871 /* APContactDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContactDate.m; path = frameworks/APAddressBook/APContactDate.m; sourceTree = "<group>"; };
+		6E52AACC1CBD1D5300647871 /* APContactListBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContactListBuilder.h; path = frameworks/APAddressBook/APContactListBuilder.h; sourceTree = "<group>"; };
+		6E52AACD1CBD1D5300647871 /* APContactListBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContactListBuilder.m; path = frameworks/APAddressBook/APContactListBuilder.m; sourceTree = "<group>"; };
+		6E52AACE1CBD1D5300647871 /* APDeprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APDeprecated.h; path = frameworks/APAddressBook/APDeprecated.h; sourceTree = "<group>"; };
+		6E52AACF1CBD1D5300647871 /* APEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APEmail.h; path = frameworks/APAddressBook/APEmail.h; sourceTree = "<group>"; };
+		6E52AAD01CBD1D5300647871 /* APEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APEmail.m; path = frameworks/APAddressBook/APEmail.m; sourceTree = "<group>"; };
+		6E52AAD11CBD1D5300647871 /* APImageExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APImageExtractor.h; path = frameworks/APAddressBook/APImageExtractor.h; sourceTree = "<group>"; };
+		6E52AAD21CBD1D5300647871 /* APImageExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APImageExtractor.m; path = frameworks/APAddressBook/APImageExtractor.m; sourceTree = "<group>"; };
+		6E52AAD31CBD1D5300647871 /* APJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APJob.h; path = frameworks/APAddressBook/APJob.h; sourceTree = "<group>"; };
+		6E52AAD41CBD1D5300647871 /* APJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APJob.m; path = frameworks/APAddressBook/APJob.m; sourceTree = "<group>"; };
+		6E52AAD51CBD1D5300647871 /* APName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APName.h; path = frameworks/APAddressBook/APName.h; sourceTree = "<group>"; };
+		6E52AAD61CBD1D5300647871 /* APName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APName.m; path = frameworks/APAddressBook/APName.m; sourceTree = "<group>"; };
+		6E52AAD71CBD1D5300647871 /* APPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPhone.h; path = frameworks/APAddressBook/APPhone.h; sourceTree = "<group>"; };
+		6E52AAD81CBD1D5300647871 /* APPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPhone.m; path = frameworks/APAddressBook/APPhone.m; sourceTree = "<group>"; };
+		6E52AAD91CBD1D5300647871 /* APRecordDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APRecordDate.h; path = frameworks/APAddressBook/APRecordDate.h; sourceTree = "<group>"; };
+		6E52AADA1CBD1D5300647871 /* APRecordDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APRecordDate.m; path = frameworks/APAddressBook/APRecordDate.m; sourceTree = "<group>"; };
+		6E52AADB1CBD1D5300647871 /* APRelatedPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APRelatedPerson.h; path = frameworks/APAddressBook/APRelatedPerson.h; sourceTree = "<group>"; };
+		6E52AADC1CBD1D5300647871 /* APRelatedPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APRelatedPerson.m; path = frameworks/APAddressBook/APRelatedPerson.m; sourceTree = "<group>"; };
+		6E52AADD1CBD1D5300647871 /* APSocialProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = frameworks/APAddressBook/APSocialProfile.h; sourceTree = "<group>"; };
+		6E52AADE1CBD1D5300647871 /* APSocialProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = frameworks/APAddressBook/APSocialProfile.m; sourceTree = "<group>"; };
+		6E52AADF1CBD1D5300647871 /* APSocialServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APSocialServiceHelper.h; path = frameworks/APAddressBook/APSocialServiceHelper.h; sourceTree = "<group>"; };
+		6E52AAE01CBD1D5300647871 /* APSocialServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APSocialServiceHelper.m; path = frameworks/APAddressBook/APSocialServiceHelper.m; sourceTree = "<group>"; };
+		6E52AAE11CBD1D5300647871 /* APSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APSource.h; path = frameworks/APAddressBook/APSource.h; sourceTree = "<group>"; };
+		6E52AAE21CBD1D5300647871 /* APSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APSource.m; path = frameworks/APAddressBook/APSource.m; sourceTree = "<group>"; };
+		6E52AAE31CBD1D5300647871 /* APThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APThread.h; path = frameworks/APAddressBook/APThread.h; sourceTree = "<group>"; };
+		6E52AAE41CBD1D5300647871 /* APThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APThread.m; path = frameworks/APAddressBook/APThread.m; sourceTree = "<group>"; };
+		6E52AAE51CBD1D5300647871 /* APTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = frameworks/APAddressBook/APTypes.h; sourceTree = "<group>"; };
+		6E52AAFD1CBD1E3600647871 /* ShowContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowContacts.swift; sourceTree = "<group>"; };
+		6E5415C41CF2EA8200279932 /* UseGift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseGift.swift; sourceTree = "<group>"; };
+		6E5415C71CF45DF100279932 /* MakeAGift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeAGift.swift; sourceTree = "<group>"; };
+		6E71EBFA1CE0FACF00E5D135 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		6E92B9111D0231D800035BE1 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		6E974B881CEAFD2200E65559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA2E5831CDC897500A326A8 /* PhoneLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneLogin.swift; sourceTree = "<group>"; };
+		6EA4DB6B1CEAFFDD0037910B /* QRReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReader.swift; sourceTree = "<group>"; };
+		6ED542821CE77AD0007D78AD /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		6ED542841CE77B71007D78AD /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6EDC16051CC61CDF001B3FA8 /* Pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pay.storyboard; sourceTree = "<group>"; };
+		6EDC16071CC61D9D001B3FA8 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6EDC16091CC6228E001B3FA8 /* Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pay.swift; sourceTree = "<group>"; };
+		6EDC160B1CC623AC001B3FA8 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		6EDC160D1CC6CAE9001B3FA8 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalConfiguration.h; path = frameworks/PayPalMobile/PayPalConfiguration.h; sourceTree = "<group>"; };
+		6EDC160E1CC6CAE9001B3FA8 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalFuturePaymentViewController.h; path = frameworks/PayPalMobile/PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		6EDC160F1CC6CAE9001B3FA8 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalMobile.h; path = frameworks/PayPalMobile/PayPalMobile.h; sourceTree = "<group>"; };
+		6EDC16101CC6CAE9001B3FA8 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalOAuthScopes.h; path = frameworks/PayPalMobile/PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		6EDC16111CC6CAE9001B3FA8 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalPayment.h; path = frameworks/PayPalMobile/PayPalPayment.h; sourceTree = "<group>"; };
+		6EDC16121CC6CAE9001B3FA8 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalPaymentViewController.h; path = frameworks/PayPalMobile/PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		6EDC16131CC6CAE9001B3FA8 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalProfileSharingViewController.h; path = frameworks/PayPalMobile/PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		6EDC16151CC6CF52001B3FA8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6EDC16171CC6CF57001B3FA8 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6EDC16191CC6CF67001B3FA8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6EDC161B1CC6CF8D001B3FA8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6EDC161D1CC6CF9A001B3FA8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6EDC161F1CC6CFA3001B3FA8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6EDE20311CD8B84700A9A2C2 /* PhoneLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhoneLogin.storyboard; sourceTree = "<group>"; };
+		6EF8986A1D06D8D800E6BC5D /* PaymentSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSettings.swift; sourceTree = "<group>"; };
+		6EF8986C1D096ABE00E6BC5D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6EF9CDBA1CE1D2FB00CCFB4B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "frameworks/Parse-iOS/Parse.framework"; sourceTree = "<group>"; };
+		6EF9CDBC1CE1D31900CCFB4B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "frameworks/Parse-iOS/Bolts.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E52AA3F1CBC242B00647871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E92B9121D0231D800035BE1 /* LocalAuthentication.framework in Frameworks */,
+				6EF9CDBD1CE1D31900CCFB4B /* Bolts.framework in Frameworks */,
+				6EF9CDBB1CE1D2FB00CCFB4B /* Parse.framework in Frameworks */,
+				6E18D0541CC6D3DB00DF0C60 /* libPayPalMobile.a in Frameworks */,
+				6EDC16201CC6CFA3001B3FA8 /* Accelerate.framework in Frameworks */,
+				6EDC161E1CC6CF9A001B3FA8 /* AVFoundation.framework in Frameworks */,
+				6EDC161C1CC6CF8D001B3FA8 /* MessageUI.framework in Frameworks */,
+				6E52AA9B1CBC271100647871 /* SystemConfiguration.framework in Frameworks */,
+				6EDC161A1CC6CF67001B3FA8 /* MobileCoreServices.framework in Frameworks */,
+				6EDC16181CC6CF57001B3FA8 /* SafariServices.framework in Frameworks */,
+				6EDC16161CC6CF52001B3FA8 /* CoreMedia.framework in Frameworks */,
+				6E52AA9F1CBC272500647871 /* libsqlite3.tbd in Frameworks */,
+				6E52AA9D1CBC271D00647871 /* libz.tbd in Frameworks */,
+				6E52AA991CBC270700647871 /* StoreKit.framework in Frameworks */,
+				6E52AA971CBC270200647871 /* Security.framework in Frameworks */,
+				6E52AA951CBC26FA00647871 /* QuartzCore.framework in Frameworks */,
+				6E52AA931CBC26F400647871 /* CoreLocation.framework in Frameworks */,
+				6E52AA911CBC26E900647871 /* CoreGraphics.framework in Frameworks */,
+				6E52AA8F1CBC26DF00647871 /* CFNetwork.framework in Frameworks */,
+				6E52AA8D1CBC26CF00647871 /* AudioToolbox.framework in Frameworks */,
+				6E52AA801CBC266300647871 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				6E52AA8B1CBC267200647871 /* ParseUI.framework in Frameworks */,
+				6E52AA891CBC267200647871 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				6E52AA811CBC266300647871 /* FBSDKShareKit.framework in Frameworks */,
+				6E52AAA21CBCD89800647871 /* Stripe.framework in Frameworks */,
+				6E52AA7E1CBC266300647871 /* FBSDKCoreKit.framework in Frameworks */,
+				6E52AA7F1CBC266300647871 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA551CBC242C00647871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA601CBC242C00647871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E52AA391CBC242B00647871 = {
+			isa = PBXGroup;
+			children = (
+				6E52AAA01CBC273500647871 /* Frameworks */,
+				6E52AA441CBC242C00647871 /* Cashy */,
+				6E52AA5B1CBC242C00647871 /* CashyTests */,
+				6E52AA661CBC242C00647871 /* CashyUITests */,
+				6E52AA431CBC242B00647871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E52AA431CBC242B00647871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E52AA421CBC242B00647871 /* Cashy.app */,
+				6E52AA581CBC242C00647871 /* CashyTests.xctest */,
+				6E52AA631CBC242C00647871 /* CashyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E52AA441CBC242C00647871 /* Cashy */ = {
+			isa = PBXGroup;
+			children = (
+				6E5415C61CF45DD100279932 /* Settings And Gift */,
+				6E974B881CEAFD2200E65559 /* Assets.xcassets */,
+				6E52AAA91CBCDFEB00647871 /* Sign Up */,
+				6E52AAAF1CBCFD8200647871 /* Pay */,
+				6E52AAAE1CBCFD7700647871 /* Transactions */,
+				6E52AA451CBC242C00647871 /* AppDelegate.swift */,
+				6E52AA4B1CBC242C00647871 /* Main.storyboard */,
+				6E52AA501CBC242C00647871 /* LaunchScreen.storyboard */,
+				6E52AA531CBC242C00647871 /* Info.plist */,
+				6E52AA751CBC251D00647871 /* Cashy-Bridging-Header.h */,
+				6EDC16071CC61D9D001B3FA8 /* MainTabBarController.swift */,
+			);
+			path = Cashy;
+			sourceTree = "<group>";
+		};
+		6E52AA5B1CBC242C00647871 /* CashyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E52AA5C1CBC242C00647871 /* CashyTests.swift */,
+				6E52AA5E1CBC242C00647871 /* Info.plist */,
+			);
+			path = CashyTests;
+			sourceTree = "<group>";
+		};
+		6E52AA661CBC242C00647871 /* CashyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E52AA671CBC242C00647871 /* CashyUITests.swift */,
+				6E52AA691CBC242C00647871 /* Info.plist */,
+			);
+			path = CashyUITests;
+			sourceTree = "<group>";
+		};
+		6E52AAA01CBC273500647871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E92B9111D0231D800035BE1 /* LocalAuthentication.framework */,
+				6EF9CDBC1CE1D31900CCFB4B /* Bolts.framework */,
+				6EF9CDBA1CE1D2FB00CCFB4B /* Parse.framework */,
+				6E0A08721CDDDA0D003F3D93 /* Banner.swift */,
+				6E18D0531CC6D3DB00DF0C60 /* libPayPalMobile.a */,
+				6EDC161F1CC6CFA3001B3FA8 /* Accelerate.framework */,
+				6EDC161D1CC6CF9A001B3FA8 /* AVFoundation.framework */,
+				6EDC161B1CC6CF8D001B3FA8 /* MessageUI.framework */,
+				6EDC16191CC6CF67001B3FA8 /* MobileCoreServices.framework */,
+				6EDC16171CC6CF57001B3FA8 /* SafariServices.framework */,
+				6EDC16151CC6CF52001B3FA8 /* CoreMedia.framework */,
+				6EDC16141CC6CAEF001B3FA8 /* PayPalMobile */,
+				6E52AAB41CBD1D4300647871 /* APAddressBook */,
+				6E52AAAA1CBCE53600647871 /* libstdc++.6.tbd */,
+				6E52AAA11CBCD89800647871 /* Stripe.framework */,
+				6E52AA841CBC267200647871 /* ParseFacebookUtilsV4.framework */,
+				6E52AA861CBC267200647871 /* ParseUI.framework */,
+				6E52AA791CBC266200647871 /* FBSDKCoreKit.framework */,
+				6E52AA7A1CBC266200647871 /* FBSDKLoginKit.framework */,
+				6E52AA7B1CBC266200647871 /* FBSDKMessengerShareKit.framework */,
+				6E52AA7C1CBC266200647871 /* FBSDKShareKit.framework */,
+				6E52AA9E1CBC272500647871 /* libsqlite3.tbd */,
+				6E52AA9C1CBC271D00647871 /* libz.tbd */,
+				6E52AA9A1CBC271100647871 /* SystemConfiguration.framework */,
+				6E52AA981CBC270700647871 /* StoreKit.framework */,
+				6E52AA961CBC270100647871 /* Security.framework */,
+				6E52AA941CBC26FA00647871 /* QuartzCore.framework */,
+				6E52AA921CBC26F400647871 /* CoreLocation.framework */,
+				6E52AA901CBC26E900647871 /* CoreGraphics.framework */,
+				6E52AA8E1CBC26DF00647871 /* CFNetwork.framework */,
+				6E52AA8C1CBC26CF00647871 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E52AAA91CBCDFEB00647871 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				6E52AAB01CBCFEE400647871 /* SignUp.storyboard */,
+				6EDE20311CD8B84700A9A2C2 /* PhoneLogin.storyboard */,
+				6E52AAA31CBCDFE600647871 /* Enter.swift */,
+				6E52AAA41CBCDFE700647871 /* SignUp.swift */,
+				6E52AAA51CBCDFE700647871 /* LogIn.swift */,
+				6E52AAAC1CBCE63700647871 /* NewUser.swift */,
+				6EA2E5831CDC897500A326A8 /* PhoneLogin.swift */,
+				6EF8986C1D096ABE00E6BC5D /* RootViewController.swift */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		6E52AAAE1CBCFD7700647871 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				6EDC160B1CC623AC001B3FA8 /* Transactions.swift */,
+				6E71EBFA1CE0FACF00E5D135 /* TransactionCell.swift */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		6E52AAAF1CBCFD8200647871 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				6EDC16051CC61CDF001B3FA8 /* Pay.storyboard */,
+				6EA4DB6B1CEAFFDD0037910B /* QRReader.swift */,
+				6EDC16091CC6228E001B3FA8 /* Pay.swift */,
+				6E5415C41CF2EA8200279932 /* UseGift.swift */,
+			);
+			name = Pay;
+			sourceTree = "<group>";
+		};
+		6E52AAB41CBD1D4300647871 /* APAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				6E52AAB51CBD1D5300647871 /* APAddress.h */,
+				6E52AAB61CBD1D5300647871 /* APAddress.m */,
+				6E52AAB71CBD1D5300647871 /* APAddressBook.h */,
+				6E52AAB81CBD1D5300647871 /* APAddressBook.m */,
+				6E52AAB91CBD1D5300647871 /* APAddressBookAccessRoutine.h */,
+				6E52AABA1CBD1D5300647871 /* APAddressBookAccessRoutine.m */,
+				6E52AABB1CBD1D5300647871 /* APAddressBookBaseRoutine.h */,
+				6E52AABC1CBD1D5300647871 /* APAddressBookBaseRoutine.m */,
+				6E52AABD1CBD1D5300647871 /* APAddressBookContactsRoutine.h */,
+				6E52AABE1CBD1D5300647871 /* APAddressBookContactsRoutine.m */,
+				6E52AABF1CBD1D5300647871 /* APAddressBookExternalChangeDelegate.h */,
+				6E52AAC01CBD1D5300647871 /* APAddressBookExternalChangeRoutine.h */,
+				6E52AAC11CBD1D5300647871 /* APAddressBookExternalChangeRoutine.m */,
+				6E52AAC21CBD1D5300647871 /* APAddressBookRefWrapper.h */,
+				6E52AAC31CBD1D5300647871 /* APAddressBookRefWrapper.m */,
+				6E52AAC41CBD1D5300647871 /* APContact.h */,
+				6E52AAC51CBD1D5300647871 /* APContact.m */,
+				6E52AAC61CBD1D5300647871 /* APContactBuilder.h */,
+				6E52AAC71CBD1D5300647871 /* APContactBuilder.m */,
+				6E52AAC81CBD1D5300647871 /* APContactDataExtractor.h */,
+				6E52AAC91CBD1D5300647871 /* APContactDataExtractor.m */,
+				6E52AACA1CBD1D5300647871 /* APContactDate.h */,
+				6E52AACB1CBD1D5300647871 /* APContactDate.m */,
+				6E52AACC1CBD1D5300647871 /* APContactListBuilder.h */,
+				6E52AACD1CBD1D5300647871 /* APContactListBuilder.m */,
+				6E52AACE1CBD1D5300647871 /* APDeprecated.h */,
+				6E52AACF1CBD1D5300647871 /* APEmail.h */,
+				6E52AAD01CBD1D5300647871 /* APEmail.m */,
+				6E52AAD11CBD1D5300647871 /* APImageExtractor.h */,
+				6E52AAD21CBD1D5300647871 /* APImageExtractor.m */,
+				6E52AAD31CBD1D5300647871 /* APJob.h */,
+				6E52AAD41CBD1D5300647871 /* APJob.m */,
+				6E52AAD51CBD1D5300647871 /* APName.h */,
+				6E52AAD61CBD1D5300647871 /* APName.m */,
+				6E52AAD71CBD1D5300647871 /* APPhone.h */,
+				6E52AAD81CBD1D5300647871 /* APPhone.m */,
+				6E52AAD91CBD1D5300647871 /* APRecordDate.h */,
+				6E52AADA1CBD1D5300647871 /* APRecordDate.m */,
+				6E52AADB1CBD1D5300647871 /* APRelatedPerson.h */,
+				6E52AADC1CBD1D5300647871 /* APRelatedPerson.m */,
+				6E52AADD1CBD1D5300647871 /* APSocialProfile.h */,
+				6E52AADE1CBD1D5300647871 /* APSocialProfile.m */,
+				6E52AADF1CBD1D5300647871 /* APSocialServiceHelper.h */,
+				6E52AAE01CBD1D5300647871 /* APSocialServiceHelper.m */,
+				6E52AAE11CBD1D5300647871 /* APSource.h */,
+				6E52AAE21CBD1D5300647871 /* APSource.m */,
+				6E52AAE31CBD1D5300647871 /* APThread.h */,
+				6E52AAE41CBD1D5300647871 /* APThread.m */,
+				6E52AAE51CBD1D5300647871 /* APTypes.h */,
+			);
+			name = APAddressBook;
+			sourceTree = "<group>";
+		};
+		6E5415C61CF45DD100279932 /* Settings And Gift */ = {
+			isa = PBXGroup;
+			children = (
+				6ED542821CE77AD0007D78AD /* Settings.storyboard */,
+				6ED542841CE77B71007D78AD /* Settings.swift */,
+				6E5415C71CF45DF100279932 /* MakeAGift.swift */,
+				6E52AAFD1CBD1E3600647871 /* ShowContacts.swift */,
+				6EF8986A1D06D8D800E6BC5D /* PaymentSettings.swift */,
+			);
+			name = "Settings And Gift";
+			sourceTree = "<group>";
+		};
+		6EDC16141CC6CAEF001B3FA8 /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				6EDC160D1CC6CAE9001B3FA8 /* PayPalConfiguration.h */,
+				6EDC160E1CC6CAE9001B3FA8 /* PayPalFuturePaymentViewController.h */,
+				6EDC160F1CC6CAE9001B3FA8 /* PayPalMobile.h */,
+				6EDC16101CC6CAE9001B3FA8 /* PayPalOAuthScopes.h */,
+				6EDC16111CC6CAE9001B3FA8 /* PayPalPayment.h */,
+				6EDC16121CC6CAE9001B3FA8 /* PayPalPaymentViewController.h */,
+				6EDC16131CC6CAE9001B3FA8 /* PayPalProfileSharingViewController.h */,
+			);
+			name = PayPalMobile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E52AA411CBC242B00647871 /* Cashy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E52AA6C1CBC242C00647871 /* Build configuration list for PBXNativeTarget "Cashy" */;
+			buildPhases = (
+				6E52AA3E1CBC242B00647871 /* Sources */,
+				6E52AA3F1CBC242B00647871 /* Frameworks */,
+				6E52AA401CBC242B00647871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cashy;
+			productName = Cashy;
+			productReference = 6E52AA421CBC242B00647871 /* Cashy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E52AA571CBC242C00647871 /* CashyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E52AA6F1CBC242C00647871 /* Build configuration list for PBXNativeTarget "CashyTests" */;
+			buildPhases = (
+				6E52AA541CBC242C00647871 /* Sources */,
+				6E52AA551CBC242C00647871 /* Frameworks */,
+				6E52AA561CBC242C00647871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E52AA5A1CBC242C00647871 /* PBXTargetDependency */,
+			);
+			name = CashyTests;
+			productName = CashyTests;
+			productReference = 6E52AA581CBC242C00647871 /* CashyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E52AA621CBC242C00647871 /* CashyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E52AA721CBC242C00647871 /* Build configuration list for PBXNativeTarget "CashyUITests" */;
+			buildPhases = (
+				6E52AA5F1CBC242C00647871 /* Sources */,
+				6E52AA601CBC242C00647871 /* Frameworks */,
+				6E52AA611CBC242C00647871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E52AA651CBC242C00647871 /* PBXTargetDependency */,
+			);
+			name = CashyUITests;
+			productName = CashyUITests;
+			productReference = 6E52AA631CBC242C00647871 /* CashyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E52AA3A1CBC242B00647871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Giuseppe Capoluongo";
+				TargetAttributes = {
+					6E52AA411CBC242B00647871 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B9BCZ2PF26;
+					};
+					6E52AA571CBC242C00647871 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6E52AA411CBC242B00647871;
+					};
+					6E52AA621CBC242C00647871 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6E52AA411CBC242B00647871;
+					};
+				};
+			};
+			buildConfigurationList = 6E52AA3D1CBC242B00647871 /* Build configuration list for PBXProject "Cashy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E52AA391CBC242B00647871;
+			productRefGroup = 6E52AA431CBC242B00647871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E52AA411CBC242B00647871 /* Cashy */,
+				6E52AA571CBC242C00647871 /* CashyTests */,
+				6E52AA621CBC242C00647871 /* CashyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E52AA401CBC242B00647871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E52AA521CBC242C00647871 /* LaunchScreen.storyboard in Resources */,
+				6EDE20321CD8B84700A9A2C2 /* PhoneLogin.storyboard in Resources */,
+				6E52AAB11CBCFEE400647871 /* SignUp.storyboard in Resources */,
+				6EDC16061CC61CDF001B3FA8 /* Pay.storyboard in Resources */,
+				6E974B891CEAFD2200E65559 /* Assets.xcassets in Resources */,
+				6E52AA4D1CBC242C00647871 /* Main.storyboard in Resources */,
+				6ED542831CE77AD0007D78AD /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA561CBC242C00647871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA611CBC242C00647871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E52AA3E1CBC242B00647871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E52AAEA1CBD1D5300647871 /* APAddressBookContactsRoutine.m in Sources */,
+				6E52AAF31CBD1D5300647871 /* APImageExtractor.m in Sources */,
+				6EDC16081CC61D9D001B3FA8 /* MainTabBarController.swift in Sources */,
+				6E52AAFC1CBD1D5300647871 /* APThread.m in Sources */,
+				6E52AAFE1CBD1E3600647871 /* ShowContacts.swift in Sources */,
+				6E52AAAD1CBCE63700647871 /* NewUser.swift in Sources */,
+				6ED542851CE77B71007D78AD /* Settings.swift in Sources */,
+				6EF8986B1D06D8D800E6BC5D /* PaymentSettings.swift in Sources */,
+				6EA4DB6C1CEAFFDD0037910B /* QRReader.swift in Sources */,
+				6EDC160C1CC623AC001B3FA8 /* Transactions.swift in Sources */,
+				6E52AAFA1CBD1D5300647871 /* APSocialServiceHelper.m in Sources */,
+				6EF8986D1D096ABE00E6BC5D /* RootViewController.swift in Sources */,
+				6E52AAE91CBD1D5300647871 /* APAddressBookBaseRoutine.m in Sources */,
+				6EDC160A1CC6228E001B3FA8 /* Pay.swift in Sources */,
+				6E52AAE81CBD1D5300647871 /* APAddressBookAccessRoutine.m in Sources */,
+				6E52AAEF1CBD1D5300647871 /* APContactDataExtractor.m in Sources */,
+				6E52AAF01CBD1D5300647871 /* APContactDate.m in Sources */,
+				6E52AAF11CBD1D5300647871 /* APContactListBuilder.m in Sources */,
+				6EA2E5841CDC897500A326A8 /* PhoneLogin.swift in Sources */,
+				6E52AAF21CBD1D5300647871 /* APEmail.m in Sources */,
+				6E52AAE61CBD1D5300647871 /* APAddress.m in Sources */,
+				6E52AAF51CBD1D5300647871 /* APName.m in Sources */,
+				6E5415C51CF2EA8200279932 /* UseGift.swift in Sources */,
+				6E52AAF41CBD1D5300647871 /* APJob.m in Sources */,
+				6E5415C81CF45DF100279932 /* MakeAGift.swift in Sources */,
+				6E52AAFB1CBD1D5300647871 /* APSource.m in Sources */,
+				6E52AAEB1CBD1D5300647871 /* APAddressBookExternalChangeRoutine.m in Sources */,
+				6E52AAF61CBD1D5300647871 /* APPhone.m in Sources */,
+				6E52AAED1CBD1D5300647871 /* APContact.m in Sources */,
+				6E52AAA81CBCDFE700647871 /* LogIn.swift in Sources */,
+				6E52AAE71CBD1D5300647871 /* APAddressBook.m in Sources */,
+				6E52AAEC1CBD1D5300647871 /* APAddressBookRefWrapper.m in Sources */,
+				6E52AAA71CBCDFE700647871 /* SignUp.swift in Sources */,
+				6E52AAF91CBD1D5300647871 /* APSocialProfile.m in Sources */,
+				6E71EBFB1CE0FACF00E5D135 /* TransactionCell.swift in Sources */,
+				6E52AA461CBC242C00647871 /* AppDelegate.swift in Sources */,
+				6E52AAA61CBCDFE700647871 /* Enter.swift in Sources */,
+				6E52AAF81CBD1D5300647871 /* APRelatedPerson.m in Sources */,
+				6E0A08731CDDDA0D003F3D93 /* Banner.swift in Sources */,
+				6E52AAF71CBD1D5300647871 /* APRecordDate.m in Sources */,
+				6E52AAEE1CBD1D5300647871 /* APContactBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA541CBC242C00647871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E52AA5D1CBC242C00647871 /* CashyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E52AA5F1CBC242C00647871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E52AA681CBC242C00647871 /* CashyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E52AA5A1CBC242C00647871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E52AA411CBC242B00647871 /* Cashy */;
+			targetProxy = 6E52AA591CBC242C00647871 /* PBXContainerItemProxy */;
+		};
+		6E52AA651CBC242C00647871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E52AA411CBC242B00647871 /* Cashy */;
+			targetProxy = 6E52AA641CBC242C00647871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E52AA4B1CBC242C00647871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E52AA4C1CBC242C00647871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E52AA501CBC242C00647871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E52AA511CBC242C00647871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E52AA6A1CBC242C00647871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E52AA6B1CBC242C00647871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E52AA6D1CBC242C00647871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cashy",
+					"$(PROJECT_DIR)/frameworks/StripeiOS",
+					"$(PROJECT_DIR)/frameworks/Parse-iOS",
+				);
+				INFOPLIST_FILE = Cashy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks/PayPalMobile",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.Cashy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cashy/Cashy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		6E52AA6E1CBC242C00647871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cashy",
+					"$(PROJECT_DIR)/frameworks/StripeiOS",
+					"$(PROJECT_DIR)/frameworks/Parse-iOS",
+				);
+				INFOPLIST_FILE = Cashy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks/PayPalMobile",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.Cashy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cashy/Cashy-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		6E52AA701CBC242C00647871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.CashyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashy.app/Cashy";
+			};
+			name = Debug;
+		};
+		6E52AA711CBC242C00647871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.CashyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashy.app/Cashy";
+			};
+			name = Release;
+		};
+		6E52AA731CBC242C00647871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.CashyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cashy;
+			};
+			name = Debug;
+		};
+		6E52AA741CBC242C00647871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giusecapo.CashyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cashy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E52AA3D1CBC242B00647871 /* Build configuration list for PBXProject "Cashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E52AA6A1CBC242C00647871 /* Debug */,
+				6E52AA6B1CBC242C00647871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E52AA6C1CBC242C00647871 /* Build configuration list for PBXNativeTarget "Cashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E52AA6D1CBC242C00647871 /* Debug */,
+				6E52AA6E1CBC242C00647871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E52AA6F1CBC242C00647871 /* Build configuration list for PBXNativeTarget "CashyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E52AA701CBC242C00647871 /* Debug */,
+				6E52AA711CBC242C00647871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E52AA721CBC242C00647871 /* Build configuration list for PBXNativeTarget "CashyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E52AA731CBC242C00647871 /* Debug */,
+				6E52AA741CBC242C00647871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E52AA3A1CBC242B00647871 /* Project object */;
+}
